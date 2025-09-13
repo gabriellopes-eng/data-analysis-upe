@@ -241,7 +241,7 @@ Projeto desenvolvido na **Universidade de Pernambuco (UPE)**, integrando **Engen
 
 ## 👤 Autor
 **Gabriel Lopes de Albuquerque** — UPE  
-- 📘 [Gmail](gabriel.lopes.albuquerque@gmail.com)  
+- 📘 Gmail: gabriel.lopes.albuquerque@gmail.com
 - 🔗 [LinkedIn](https://www.linkedin.com/in/gabriel-lopes-de-albuquerque-658a8317b/)
 
 ## 📄 Licença
