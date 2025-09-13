@@ -16,7 +16,7 @@ pagina = st.sidebar.radio(
     ["Análise 1: Comparativo mensal de valores ao longo de 1 ano", 
      "Análise 2: Somatório anual por projeto", 
      "Análise 3: Total Mensal de Todos os Projetos", 
-     "Análise 4:    Recebimentos anuais por órgão (Agência, Unidade, IA-UPE)"],
+     "Análise 4: Recebimentos anuais por órgão (Agência, Unidade, IA-UPE)"],
     index=0,
 )
 

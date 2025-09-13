@@ -3,11 +3,11 @@ from analisesFinanceiras.analise1_comparativa import run as analise1_run
 from analisesFinanceiras.analise2_somatorio import run as analise2_run
 from analisesFinanceiras.analise3_total_mensal import run as analise3_run
 
-st.set_page_config(page_title="PROPEGI Financeiro", page_icon="../images/upeLogo.png" ,layout="wide")
+st.set_page_config(page_title="PROPEGI Financeiro", page_icon="../../images/upeLogo.png" ,layout="wide")
 st.title("PROPEGI Financeiro: Data Analysis Dashboard")
 
 with st.sidebar: 
-    st.image("../images/upeLogo.png", width=200)
+    st.image("../../images/upeLogo.png", width=200)
     st.header("Navegação entre Dashboards")
     escolha = st.radio(
         "Escolha a Análise:",
