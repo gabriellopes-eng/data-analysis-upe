@@ -8,9 +8,9 @@ Dashboards interativos em **Streamlit** com dados **JSON** para dois domínios:
 - **PROPEGI Financeiro**
 - **Projeto de Desenvolvimento Tecnológico**
 
-Projetado para **gestão baseada em dados** no contexto universitário, com foco em clareza, comparabilidade e replicabilidade.
+Projetado para **gestão baseada em dados** no contexto profissional e universitário, com foco em clareza, comparabilidade e replicabilidade.
 
----
+
 
 ## 🚀 Tecnologias
 - Python 3.10+
@@ -18,7 +18,6 @@ Projetado para **gestão baseada em dados** no contexto universitário, com foco
 - Pandas
 - Plotly
 
----
 
 ## 📂 Estrutura do Repositório
 ```
@@ -59,7 +58,7 @@ DATA-ANALYSIS-UPE/
 └── README.md
 ```
 
----
+
 
 ## ⚙️ Instalação
 
@@ -86,8 +85,6 @@ pip install -r requirements.txt
 # Desenvolvimento (opcional)
 pip install -r requirements-dev.txt
 ```
-
----
 
 ## ▶️ Execução Rápida
 
@@ -120,7 +117,6 @@ streamlit run "Projeto de Desenvolvimento Tecnologico/Streamlit/projeto_tecnolog
 > )
 > ```
 
----
 
 ## 🔎 O que cada análise faz (explicado de forma explícita)
 
@@ -165,8 +161,6 @@ streamlit run "Projeto de Desenvolvimento Tecnologico/Streamlit/projeto_tecnolog
 
 > **Observação:** `data_utils.py` padroniza campos do JSON, cria colunas derivadas (ex.: `ano`, `mes`) e agrega dados.
 
----
-
 ## ✅ Qualidade e Produtividade
 - **Lint:** `flake8`
 - **Formatação:** `black`
@@ -188,18 +182,12 @@ invoke test
 invoke clean
 ```
 
----
-
 ## 🏫 Contexto Acadêmico
-Projeto desenvolvido na **Universidade de Pernambuco (UPE)**, integrando **Engenharia de Software** e **Ciência de Dados** para apoiar **decisões gerenciais** baseadas em evidências.
-
----
+Projeto desenvolvido na **Universidade de Pernambuco (UPE)**, integrando **Engenharia de Software**, **Análise de Dados** e **Ciência de Dados** para apoiar **Decisões Gerenciais** baseadas em evidências.
 
 ## 👤 Autor
-**Cayo Felipe Lopes de Oliveira** — UPE  
-📧 [seu-email] · 🔗 LinkedIn: [seu-linkedin]
-
----
+**Gabriel Lopes de Albuquerque** — UPE  
+📧 [gabriel.lopes.albuquerque@gmail.com] · 🔗 LinkedIn: [https://www.linkedin.com/in/gabriel-lopes-de-albuquerque-658a8317b/]
 
 ## 📄 Licença
 Distribuído sob a licença **MIT**. Consulte o arquivo `LICENSE`.
