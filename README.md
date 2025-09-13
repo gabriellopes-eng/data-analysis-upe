@@ -10,6 +10,9 @@ Dashboards interativos em **Streamlit** com dados **JSON** para dois domínios:
 
 Projetado para **gestão baseada em dados** no contexto profissional e universitário, com foco em clareza, comparabilidade e replicabilidade.
 
+<img width="1536" height="1024" alt="63ad614e-5fd4-42e0-aebd-a09f11bfe0c4" src="https://github.com/user-attachments/assets/d3b19fe7-8477-4ae3-aa4c-f54d2c81dd9f" />
+
+
 
 
 ## 🚀 Tecnologias
