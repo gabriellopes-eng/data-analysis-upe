@@ -1,4 +1,4 @@
-# 📊 Data Analysis UPE
+# ◈ Data Analysis UPE
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.38.0-FF4B4B.svg)](https://streamlit.io/)
