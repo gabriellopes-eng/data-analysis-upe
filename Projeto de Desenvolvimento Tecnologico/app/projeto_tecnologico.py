@@ -30,3 +30,38 @@ elif pagina.startswith("Análise 4"):
     analise4_run(JSON_PATH)
 else:
     st.error("⚠️Página não encontrada.")
+
+
+
+
+''''
+import streamlit as st
+from pathlib import Path
+
+st.set_page_config(
+    page_title="Projeto de Desenvolvimento Tecnológico",
+    page_icon="images/upeLogo.png",
+    layout="wide",
+)
+
+st.image("images/upeLogo.png", width=160)
+st.title("Projeto de Desenvolvimento Tecnológico: Data Analysis Dashboard")
+
+st.markdown(
+    """
+    Bem-vindo ao painel de análises.  
+    Use o menu de **Páginas** (barra lateral) para escolher a análise desejada.
+    """
+)
+
+st.divider()
+st.subheader("Atalhos rápidos")
+
+col1, col2 = st.columns(2)
+with col1:
+    st.page_link("pages/01_Analise_1.py", label="Análise 1 — Comparativo mensal de valores ao longo de 1 ano")
+    st.page_link("pages/02_Analise_2.py", label="Análise 2 — Projetos por segmento/ano")
+with col2:
+    st.page_link("pages/03_Analise_3.py", label="Análise 3 — Total mensal de todos os projetos")
+    st.page_link("pages/04_Analise_4.py", label="Análise 4 — Recebimentos anuais por órgão")
+'''''''''

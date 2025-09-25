@@ -1,4 +1,3 @@
-# Streamlit/analisesFinanceiras/data_utils.py
 import pandas as pd
 
 # Caminho padrão (ajuste se necessário caso o JSON esteja em outro local)
@@ -62,7 +61,7 @@ def agrupar_mensal(df: pd.DataFrame, ano: int) -> pd.DataFrame:
         .sum()
         .sort_values("Mes")
     )
-    # Garante todos os meses (1..12) mesmo que faltem dados
+    # Garante todos os meses (1..12) mesmo que faltem dados - isso eh importante para o gráfico
     meses_completos = pd.DataFrame({"Mes": range(1, 12 + 1)})
     meses_completos["MesNome"] = meses_completos["Mes"].apply(
         lambda m: pd.Timestamp(year=ano, month=m, day=1).strftime("%m/%b")

@@ -7,7 +7,7 @@ st.set_page_config(page_title="PROPEGI Financeiro", page_icon="../../images/upeL
 st.title("PROPEGI Financeiro: Data Analysis Dashboard")
 
 with st.sidebar: 
-    st.image("../../images/upeLogo.png", width=200)
+    st.image("../../images/upeLogo.png", width=200)  #Diminuir o Tamnanho da Logo
     st.header("Navegação entre Dashboards")
     escolha = st.radio(
         "Escolha a Análise:",
